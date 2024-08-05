@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: navy;
+  padding: 20px;
+}
+h1 {
+  text-align: center;
+  color: white;
+}
+#form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+select, input[type="number"] {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button {
+  background-color: navy;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #0056b3;
+}
+#totalCost {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20px;
+}
